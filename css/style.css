@@ -1,0 +1,889 @@
+/* Normal desktop :1200px. */
+/* Normal desktop :992px. */
+/* Tablet desktop :768px. */
+/* small mobile :320px. */
+/* Large Mobile :480px. */
+/* 1. Theme default css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* header start */
+.navbar-collapse {
+  margin-left: 135px;
+}
+.navbar-light .navbar-nav .nav-link {
+    padding: 10px 20px;
+}
+.banner-section{
+      background-image: url(../img/banner.png.webp);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      box-sizing: border-box;
+      width: 100%;
+      height: 100vh;
+    }
+.bannerTextbox h1{
+    color: #1F1F1F;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+}
+.bannerTextbox h2{
+  font-size: 70px;
+  font-weight: 300;
+}
+.bannerTextbox p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #727272;
+    line-height: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
+}
+.bannerTextbox .boxbtn{
+color: white;
+background: linear-gradient(to right, #0181f5 0%, #5db2ff 100%);
+padding: 15px 20px;
+margin-top: 10px ;
+border: none;
+outline: none;
+border: 1px solid #0181f5;
+} 
+ .boxbtn:hover{
+ background: #ffffff;
+  color: #1F1F1F;
+  border-color:#0181f5 ;
+}
+.bannerTextbox {
+padding-top: 150px;
+}
+
+
+/* header end */
+
+/* Appointment section start  */
+
+ .Appointmentsection{
+    width: 100%;
+    height: 400px;
+ }
+.AppointmentBoxs{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+.AppointmentBoxs .Abox1{
+   width: 37%;
+   background: #5db2ff;
+   padding: 30px 10px 30px 267px;
+
+}
+.AppointmentBoxs  i{
+font-size: 40px;
+}
+.AppointmentBoxs  h2{
+font-size: 34px;
+padding-top:10px;
+}
+.AppointmentBoxs  p{
+  margin-bottom: 0px;
+    line-height: 26px;
+}
+.AppointmentBoxs button{
+  background: transparent;
+  padding: 10px 20px;
+  color: white;
+  border: 1px solid white;
+  margin-top: 15px;
+}
+.AppointmentBoxs button:hover {
+  background: #ffffff;
+  border-color:black ;
+  color: #0181f5;
+  transition: all .5s ease-in;
+}
+   
+.AppointmentBoxs .Abox2{
+    width: 26%;
+    background: #0181f5;
+    padding: 30px 20px;
+}
+.AppointmentBoxs .Abox3{
+   width: 37%; 
+   background: #5db2ff;
+   padding: 30px 30px;
+
+}
+/* Appointment section star */
+
+/* welcome start */
+.Welcome-section{
+ width: 100%;
+ height: 600px;
+ margin-bottom: 50px;
+}
+.welWrap{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.welimg {
+  width: 50%;
+  height: auto;
+  display: flex;
+}
+.welText{
+ width: 50%;
+ height: auto;
+padding: 20px 66px;
+}
+.welimg .welimg1 {
+  position: relative;
+ 
+}
+
+.welimg .welimg2 {
+  position: absolute;
+     margin-top: 150px;
+    margin-left: 150px;
+}
+.welText p {
+    font-size: 18px;
+    color:#727272;
+}
+
+.welText h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom:25px;
+}
+
+.welText  ul li{
+  font-size: 18px;
+  line-height: 30px;
+  color:#727272;
+}
+.welText button{
+     padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 800;
+    border: 1px solid black;
+}
+.welText button:hover{
+  background: #0181f5;
+  color: white;
+  border-color: #0181f5;
+  transition: all 1.5s ease-in-out;
+  margin-top: 25px;
+}
+/* welcome end */
+
+
+/* */
+
+.Departments-section{
+  width: 100%;
+  height: auto;
+  padding-top: 100px;
+  margin-top: 120px;
+  background: #dddddd;
+  padding-bottom: 100px;
+}
+.deptext{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.deptext p {
+    line-height: 10px;
+}
+.deptext h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.depbox{
+  width: 320px;
+  height: 380px;
+  background: #ffffff;
+}
+.depbox img{
+  width: 100%;
+}
+
+.depboxtext{
+  
+padding: 20px 32px;
+}
+
+.deprotfs{
+  display: flex;
+
+}
+.depbox{
+margin: 25px;
+}
+
+
+ /* slider section */
+.sliderSection{
+  background-image: url(/img/1.png\ \(2\).webp);
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.sliderContent{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 15px;
+  font-size: 18px;
+  padding-top: 150px;
+  
+}
+  /* slider section */
+
+/* leanding section */
+  .leandingSection{
+   width: 100%;
+   height: 500px;
+   margin-bottom: 100px;
+  }
+.leandNav{
+  width: 100%;
+  height: 100px;
+  background: #5db2ff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.leandNav h2{
+  font-size: 20px;
+}
+.leandmainWrap{
+ width: 100%;
+ height: auto;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding-top: 100px;
+}
+.leandtext{
+  width: 50%;
+}
+.leandtext i{
+font-size: 40px;
+}
+.leandIcon {
+  width: 100px;
+  height: 100px;
+  background: #0181f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.leandtext h3{
+font-size: 28px;
+}
+.leandtext p{
+font-size: 16px; 
+color: #777777;
+margin-top: 18px;
+}
+.leandimg{
+  width: 50%;
+}
+.leandimg img{
+  width: 100%;
+}
+  /* leanding section */
+
+  /* Expert Doctors */
+
+  .ExpertDoctorS{
+    width: 100%;
+    height: 400px;
+    margin-top: 230px;
+    margin-bottom: 150px;
+  }
+  .ExpertDoctorS h2{
+
+font-size: 35px;
+
+font-weight: 700;
+
+margin-bottom: 50px;
+
+}
+.docboxWrap{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.docbox{
+  text-align: center;
+  background: #dddddd;
+}
+.docbox h3{
+font-weight: 600;
+margin-top: 23px;
+line-height: 10px;
+}
+.docbox:hover{
+  background: #5db2ff;
+  transition: all ease-out .5s;
+  color: white;
+}
+
+  /* Expert Doctors */
+
+  /* Appointment */
+.AppointmentContsec{
+  width: 100%;
+   height: 200px;
+   display: flex;
+   align-items: center;
+
+}
+.Contact{
+ background-image: url(/img/emergency-1\ \(1\).png);
+ width: 50%;
+ height: auto;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding-left: 170px;
+ padding-top: 58px;
+}
+.Appointment{
+ background-image: url(/img/emergency-2\ \(1\).png);
+width: 50%;
+ height: auto;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding-left: 170px;
+padding-top: 58px;
+}
+
+.context h3{
+font-size: 27px;
+font-weight: 600;
+color: black;
+}
+.context p{
+font-size: 16px;
+line-height: 15px;
+}
+.contbtn{
+
+margin-bottom: 35px;
+}
+.contbtn button{
+padding: 5px 20px; 
+font-weight: 600;
+border: none;
+outline: none;
+border: 1px solid #ddd;
+border-radius: 50px;
+transition: all .5s ease-in-out;
+}
+.contbtn button:hover{
+  background: #0181f5;
+  color: white;
+  border-color: #0181f5;
+}
+.Appotext h3{
+font-size: 27px;
+font-weight: 600;
+color: black;
+}
+.Appotext p{
+ font-size: 16px;
+line-height: 15px;
+}
+.Appobtn{
+margin-bottom: 35px;
+}
+.Appobtn button{
+padding: 5px 20px; 
+font-weight: 600;
+border: none;
+outline: none;
+border: 1px solid #ddd;
+border-radius: 50px;
+transition: all .5s ease-in-out;
+}
+.Appobtn button:hover{
+  background: #0181f5;
+  color: white;
+  border-color: #0181f5;
+}
+  /* Appointment */
+
+
+  /* footer */
+.footerScetion{
+      background: #1F1F1F;
+      width: 100%;
+      height: 450px;
+      color: white;
+}
+.footboxwrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 30px;
+  }
+  .footebox1 {
+    width: 36%;
+    padding: 20px 43px 20px 10px;
+}
+  .footebox1 img{
+ margin-bottom: 30px;   
+  }
+.footebox1 i{
+    font-size: 30px;
+    padding: 10px;
+  }
+   .footebox2{
+   width: 23%; 
+    margin-right: 33px;
+    margin-top: 10px;
+  }
+.footbox2 h2{
+margin-top: 19px;
+}
+.footbox2 ul li{
+list-style: none; 
+line-height: 30px;
+}
+.footebox3{
+ width: 23%;
+  margin-top: 19px;
+}
+.footebox3 h2{
+  font-size: 30px;
+}
+.footebox3 ul li{
+  list-style: none;
+  line-height: 30px;
+}
+
+   .footebox4{
+   width: 23%;
+        margin-top: -30px;
+
+  }
+ .footbox4 h2 {
+    margin-bottom: 35px;
+}
+
+.footbox4 p {
+    line-height: 12px;
+}
+
+.copyrit{
+width: 100%;
+height: 50px;
+background: #000;
+text-align: center;
+
+}
+.copyrit p{
+      padding-top: 12px;
+}
+
+  /* footer */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+.bannerTextbox h1 {
+    font-size: 30px;
+
+}
+.bannerTextbox h2 {
+    font-size: 40px;
+    font-weight: 300;
+}
+.bannerTextbox p {
+    font-size: 17px;
+}
+.bannerTextbox {
+    padding-top: 80px;
+}
+.AppointmentBoxs .Abox1{
+    width: 100%;
+    background: #5db2ff;
+    padding: 30px 10px 30px 10px;
+    text-align: center;
+}
+.AppointmentBoxs .Abox2 {
+    width: 100%;
+    background: #0181f5;
+    padding: 30px 20px;
+    text-align: center;
+}
+.AppointmentBoxs .Abox3 {
+    text-align: center;
+    width: 100%;
+    background: #5db2ff;
+    padding: 30px 30px;
+}
+
+.AppointmentBoxs {
+    display: block;
+
+}
+.Welcome-section {
+    width: 100%;
+    height: 600px;
+    margin-bottom: 50px;
+    margin-top: 460px;
+}
+.welimg .welimg2 {
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 150px;
+}
+.welWrap {
+    display: block;
+}
+.welText {
+    width: 100%;
+    height: auto;
+    /* padding: 20px 66px; */
+    text-align: center;
+    margin-top: 180px;
+}
+.Departments-section {
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    margin-top: 760px;
+    background: #dddddd;
+    padding-bottom: 100px;
+}
+.deptext p {
+    line-height: 8px;
+    font-size: 14px;
+}
+.deprotfs {
+    display: block;
+}
+.leandNav {
+    display: block;
+    text-align: center;
+    padding: 6px 10px;
+}
+.leandNav h2 {
+    font-size: 18px;
+}
+.leandmainWrap {
+    display: block;
+    padding-top: 50px;
+    text-align: center;
+}
+.leandtext {
+    width: 100%;
+}
+
+.leandIcon {
+    align-items: center;
+    margin: 0 auto;
+}
+.leandtext h3 {
+    font-size: 25px;
+    margin-top: 10px;
+}
+.leandimg {
+    width: 100%;
+}
+.docboxWrap {
+    display: block;
+}
+.AppointmentContsec{
+  display: block;
+      margin-bottom: 121px;
+}
+.ExpertDoctorS {
+    width: 100%;
+    height: 400px;
+    margin-top: 230px;
+    margin-bottom: 1048px;
+}
+
+.Contact {
+    width: 100%;
+    padding-top: 15px;
+}
+.context h3 {
+    font-weight: 600;
+    color: black;
+}
+.contbtn button {
+    padding: 5px 20px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    transition: all .5s ease-in-out;
+    margin-bottom: 10px;
+}
+
+.Appointment {
+    background-image: url(/img/emergency-2\ \(1\).png);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 31px;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.Contact {
+    background-image: url(/img/emergency-1\ \(1\).png);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 58px;
+    text-align: center;
+    padding-left: 0px;
+}
+.contbtn {
+    margin-bottom: 0px;
+}
+.Appobtn button {
+    padding: 5px 20px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    transition: all .5s ease-in-out;
+    margin-bottom: 17px;
+}
+.footboxwrap {
+    width: 100%;
+    height: 100%;
+   display: block;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 30px;
+}
+.footebox1 {
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+}
+.footbox2 {
+    width: 100%;
+    text-align: center;
+}
+.footerScetion {
+    background: #1F1F1F;
+    width: 100%;
+    height: 950px;
+    color: white;
+}
+.footebox3 {
+    text-align: center;
+    width: 100%;
+    margin-top: 19px;
+}
+.footbox4 {
+    width: 100%;
+    text-align: center;
+}
+.footbox4 h2 {
+    margin-bottom: 15px;
+}
+.copyrit {
+    width: 100%;
+    height: 74px;
+    background: #000;
+    text-align: center;
+    font-size: 14px;
+    padding: 13px 10px;
+}
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+
+.bannerTextbox {
+    padding-top: 70px;
+}
+.bannerTextbox h1 {
+    color: #1F1F1F;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.bannerTextbox h2 {
+    font-size: 55px;
+    font-weight: 300;
+}
+.AppointmentBoxs .Abox1 {
+   width: 33%;
+    background: #5db2ff;
+    padding: 36px 20px;
+}
+.AppointmentBoxs .Abox2 {
+    width: 33%;
+    background: #0181f5;
+   padding: 15px 20px;
+}
+.AppointmentBoxs .Abox3 {
+    width: 33%;
+    background: #5db2ff;
+    padding: 15px 20px;
+}
+.welWrap {
+    display: block;
+}
+.welimg .welimg2 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 337px;
+}
+.welText {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    text-align: center;
+    margin-top: 45px;
+}
+.welText ul li{
+  list-style: none;
+}
+.Welcome-section {
+    width: 100%;
+    height: 777px;
+    margin-bottom: 50px;
+}
+.depboxtext {
+    padding: 15px 15px;
+}
+.ExpertDoctorS {
+    width: 100%;
+    height: 440px;
+    margin-top: 170px;
+    margin-bottom: 30px;
+}
+.docbox h3 {
+    font-weight: 600;
+    margin-top: 23px;
+    line-height: 10px;
+    font-size: 20px;
+}
+.docbox {
+    text-align: center;
+    background: #dddddd;
+    width: 25%;
+    margin: 10px;
+}
+.docbox img{
+  width: 100%;
+}
+.Appointment {
+    background-image: url(/img/emergency-2\ \(1\).png);
+    width: 50%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 69px;
+    padding-top: 58px;
+}
+.Contact {
+    background-image: url(/img/emergency-1\ \(1\).png);
+    width: 50%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 100px;
+    padding-top: 58px;
+}
+.footboxwrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 55px 0px;
+}
+.footebox1 {
+    width: 30%;
+    padding: 20px 30px 20px 4px;
+}
+.footbox2 h2 {
+    margin-top: 6px;
+    margin-bottom: 32px;
+    font-size: 25px;
+}
+.footebox3 {
+    width: 25%;
+    margin-top: 19px;
+        margin-left: 22px;
+}
+.footebox3 h2 {
+    font-size: 22px;
+    margin-bottom: 39px;
+}
+.footbox4 {
+    width: 31%;
+}
+.footbox4 h2 {
+       margin-bottom: 68px;
+    font-size: 23px;
+}
+.footbox4 p {
+    line-height: 17px;
+}
+.footerScetion {
+    background: #1F1F1F;
+    width: 100%;
+    height: 435px;
+    color: white;
+}
+
+
+}
